@@ -5,7 +5,7 @@
   
   ## Description
   --- 
-  This is an API for a social network web application. Users in this application can share thoughts, react to thoughts of friends, and create a friend list. 
+  This is an API for a social network web application. Users of this application can share thoughts, react to thoughts of friends, and create a friend list. 
   
   ## Table of Contents
   ---
