@@ -1,7 +1,7 @@
 const { Thought, User } = require("../models");
 
 const thoughtController = {
-  //get all thoughts
+  // get all thoughts
   getAllThoughts(req, res) {
     Thought.find({})
       .populate({
@@ -66,7 +66,8 @@ const thoughtController = {
       .catch((err) => res.json(err));
   },
 
- 
+ // deletes thought
+ // pulls from thoughts array in User model
   deleteThought({ params }, res) {
     
     Thought.findOneAndDelete({ _id: params.thoughtId }).then(

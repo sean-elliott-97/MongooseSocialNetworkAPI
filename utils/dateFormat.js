@@ -87,7 +87,7 @@ module.exports = (
   let periodOfDay;
 
   if (dateObj.getHours() >= 12) {
-    //so hour is in correct format
+    //12 is subtracted from hour so hour is in correct format
     hour = hour - 12;
     periodOfDay = "pm";
   } else {
